@@ -4,7 +4,7 @@ use std::fs::read_to_string;
 ///////////////////////////////////////////////////////////////////////////////
 
 pub fn solve() -> SolutionPair {
-    let input = read_to_string("./input/01_01.txt").expect("Cannot parse input 1");
+    let input = read_to_string("./input/01.txt").expect("Cannot parse input 1");
     let sol1: u64 = part_1(&input);
     let sol2: u64 = part_2(&input);
 
